@@ -1,12 +1,17 @@
-- 👋 Hi, I’m @root-Akira
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Hi, I'm Sunny Singh 👋
 
-<!---
-root-Akira/root-Akira is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+👨‍💻 **BCA Student** | 🌐 **Web3 Enthusiast** | 🛠️ **MERN Stack Learner** | 🐧 **Linux User**
+
+I'm currently pursuing a Bachelor of Computer Applications (BCA) degree and diving deep into the world of Web3 and the MERN stack. I enjoy exploring Linux and applying what I learn to real-world projects.
+
+### 🔭 What I'm Working On
+- Learning Web3 technologies and blockchain development
+- Building projects using the MERN stack (MongoDB, Express.js, React, Node.js)
+- Enhancing my skills in Linux system administration
+
+### 🌱 What I'm Learning
+- Advanced concepts in Web3 and decentralized applications (dApps)
+- Full-stack development with the MERN stack
+- Open-source contributions and collaboration
+
+Let's connect and collaborate on exciting projects!
