@@ -1,0 +1,33 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: root-Akira
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FFD700&color_dots=%232d0000,%23590000,%238a0000,%23cc0000,%23FFD700
+
+      - name: Move SVG to assets
+        run: |
+          mkdir -p assets
+          cp dist/github-contribution-grid-snake-dark.svg assets/github-contribution-grid-snake-dark.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git commit -m "chore: update contribution snake [skip ci]" || exit 0
+          git push
